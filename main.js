@@ -1,6 +1,6 @@
 //copio l'elemento <div class="header-right"> all'interno della variabile btnHamburger
 
-const btnHamburger = document.querySelector("div.header-right");
+const btnHamburger = document.querySelector("i.fas.fa-bars");
 
 console.log (btnHamburger);
 
