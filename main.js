@@ -1,6 +1,6 @@
 //copio l'elemento <div class="header-right"> all'interno della variabile btnHamburger
 
-const btnHamburger = document.querySelector("i.fas.fa-bars");
+const btnHamburger = document.querySelector(".header-right > a");
 
 console.log (btnHamburger);
 
@@ -8,7 +8,7 @@ console.log (btnHamburger);
 const hamburgerMenu = document.querySelector("div.hamburger-menu");
 
 //copio l'elemento <i class="fas fa-times"> all'interno della variabile btnCross
-const btnCross = document.querySelector("i.fas.fa-times");
+const btnCross = document.querySelector(".close");
 console.log (btnCross);
 
 btnHamburger.addEventListener('click', function(){
